@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class CategoriesWidget extends StatefulWidget {
   const CategoriesWidget({super.key});
 
@@ -15,7 +14,6 @@ class _CategoriesWidgetState extends State<CategoriesWidget> {
     'Dessert',
     'Végétarien',
   ];
-
   int selectedIndex = 0;
 
   @override

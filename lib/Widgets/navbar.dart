@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recette_ecf_app/Screens/profile_page.dart';
+import 'package:recette_ecf_app/Widgets/Form_widgets/add_form.dart';
 import 'package:recette_ecf_app/screens/home_page.dart';
 class NavBar extends StatefulWidget {
   const NavBar({
@@ -14,7 +15,7 @@ class _NavBarState extends State<NavBar> {
   int currentPageIndex = 0;
   List<Widget> widgetList = const [
     HomePage(),
-    Text('Add', style: TextStyle(fontSize: 40)),
+    AddForm(),
     ProfilePage(),
   ];
   @override
